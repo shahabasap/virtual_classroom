@@ -1,0 +1,64 @@
+// for production
+// {
+//     "compilerOptions": {
+//         "target": "ES6",
+//         "module": "commonjs",
+//         "outDir": "./dist",
+//         "strict": false,
+//         "esModuleInterop": true,
+//         "useUnknownInCatchVariables": true,
+//         "typeRoots": ["./node_modules/@types", "./src"],
+//         "types": ["node"],
+//         "skipLibCheck": true,
+//         "forceConsistentCasingInFileNames": true
+//     },
+//     "include": [
+//         "src/**/*.ts"
+//     ],
+//     "exclude": [
+//         "node_modules"
+//     ]
+// }
+
+
+// ignoring errors
+// {
+//     "compilerOptions": {
+//         "target": "ES6",
+//         "module": "commonjs",
+//         "outDir": "./dist",
+//         "strict": true,
+//         "esModuleInterop": true,
+//         "useUnknownInCatchVariables": true,
+//         "typeRoots": ["./node_modules/@types", "./src"],
+//         "types": ["node"]
+//     },
+//     "include": [
+//         "src/**/*.ts"
+// , "src/interfaces/controllers/googleAuth.ts", "src/infrastructure/database/models/TeacherRequest.ts"    ],
+//     "exclude": [
+//         "node_modules"
+//     ]
+// }
+
+
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "strict": true,  // Enable strict type-checking options
+      "esModuleInterop": true,
+      "skipLibCheck": true,  // Skip type checking of declaration files for faster builds
+      "incremental": true,  // Enable incremental compilation
+      "tsBuildInfoFile": "./tsconfig.tsbuildinfo"  // Specify the location of the build info file
+    },
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  

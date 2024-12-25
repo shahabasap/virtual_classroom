@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white; 
+    font-family: 'Jost', sans-serif;
+}
+
+
+
+.small-toast {
+    font-size: 12px; /* Smaller font size */
+    padding: 4px 8px; /* Reduced padding for a more compact look */
+    border-radius: 20px; /* Rounded corners for capsule shape */
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent dark background */
+    color: #ffffff; /* White text color for contrast */
+    box-shadow: none; /* Remove shadow for a flatter appearance */
+    font-weight: 500; /* Slightly bold text */
+    margin: 0; /* Remove margin */
+    max-width: 200px; /* Limit the width to prevent overflow */
+    text-align: center; /* Center align text */
+  }
